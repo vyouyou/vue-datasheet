@@ -1,18 +1,16 @@
 # vue-datasheet
-可能是目前最好的vue excel插件
+代码结构,满足基本excel功能插件
 使用: npm install vue-datasheet
 ## Options
 
 选项 | 类型 | 描述
 :--- | :---: | :---
 data | Array | 二维数组,每个元素的属性会传递给对应单元格
-valueRenderer | func | 渲染单元格的方法 `function(cell, i, j)`
-dataRenderer | func | Method to render the underlying value of the cell `function(cell, i, j)`. This data is visible once in edit mode.
+valueRenderer | func | 渲染单元格的方法: `function(cell, i, j)`
 onChange | func | 发生变化的回调函数: `function(cell, i, j, newValue) {}`
-onPaste | func | onPaste handler: `function(array) {}` If set, the function will be called with an array of rows. Each row has an array of objects containing the cell and raw pasted value. If the pasted value cannot be matched with a cell, the cell value will be undefined
-onContextMenu | func | Context menu handler : `function(event, cell, i, j)`
+onPaste | func | 复制的回调函数: `function(array) {}`
+onContextMenu | func | 鼠标右键的上下文菜单回调: `function(event, cell, i, j)`
 parsePaste | func | `function (string) {}` If set, the function will be called with the raw clipboard data. It should return an array of arrays of strings. This is useful for when the clipboard may have data with irregular field or line delimiters. If not set, rows will be split with line breaks and cells with tabs.
-attributesRenderer | func | Method to add attributes to the cell `function(cell, i, j)`. The function should return an object where the keys are the attribute names and the values are their values. Example bellow.
 
 ## Cell Options
 
