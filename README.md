@@ -1,6 +1,6 @@
 # vue-datasheet
 满足基本excel功能插件
-安装:npm install vue-datasheet --save
+安装:npm install vue-datasheet --save <br>
 https://github.com/vyouyou/vue-datasheet/blob/master/assets/excel2.gif
 ## Options
 
