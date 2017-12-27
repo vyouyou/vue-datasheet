@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e33fbc1b-9604-46b1-a36c-4351fda97fc0" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/index.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/assets/excel2.gif" afterPath="$PROJECT_DIR$/assets/example1.gif" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/ComponentCell.vue" afterPath="$PROJECT_DIR$/lib/ComponentCell.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/DataCell.vue" afterPath="$PROJECT_DIR$/lib/DataCell.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/DataSheet.vue" afterPath="$PROJECT_DIR$/lib/DataSheet.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/constant.js" afterPath="$PROJECT_DIR$/lib/constant.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -47,8 +40,8 @@
       <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+            <state relative-caret-position="114">
+              <caret line="6" column="77" lean-forward="false" selection-start-line="6" selection-start-column="77" selection-end-line="6" selection-end-column="77" />
               <folding />
             </state>
           </provider>
@@ -305,12 +298,12 @@
       <workItem from="1514216156553" duration="1416000" />
       <workItem from="1514304243462" duration="228000" />
       <workItem from="1514358775461" duration="48000" />
-      <workItem from="1514363553049" duration="825000" />
+      <workItem from="1514363553049" duration="930000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34972000" />
+    <option name="totallyTimeSpent" value="35077000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="397" y="-4" width="1855" height="1084" extended-state="6" />
@@ -441,8 +434,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+        <state relative-caret-position="114">
+          <caret line="6" column="77" lean-forward="false" selection-start-line="6" selection-start-column="77" selection-end-line="6" selection-end-column="77" />
           <folding />
         </state>
       </provider>
