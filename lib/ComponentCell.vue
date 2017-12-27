@@ -48,12 +48,6 @@
                 row, col, readOnly, forceComponent, rowSpan, colSpan, width, overflow, value, className, editing, selected, style,
                 onMouseDown, onMouseOver, onDoubleClick, onContextMenu, attributes
             } = this.props;
-
-            //            className={[
-            //                    className, "cell", overflow,
-            //                    editing && "editing", selected && "selected",
-            //            this.state.updated && "updated"
-            //        ].filter(a => a).join(" ")}
             return (
                 <td
                     class={{

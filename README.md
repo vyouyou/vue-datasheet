@@ -1,6 +1,9 @@
 # vue-datasheet
-代码结构,满足基本excel功能插件
-使用: npm install vue-datasheet
+
+满足基本excel功能的vue插件
+
+npm install vue-datasheet
+
 ## Options
 
 选项 | 类型 | 描述
@@ -8,9 +11,9 @@
 data | Array | 二维数组,每个元素的属性会传递给对应单元格
 valueRenderer | func | 渲染单元格的方法: `function(cell, i, j)`
 onChange | func | 发生变化的回调函数: `function(cell, i, j, newValue) {}`
-onPaste | func | 复制的回调函数: `function(array) {}`
+onPaste | func | 粘贴的回调函数: `function(array) {}`
 onContextMenu | func | 鼠标右键的上下文菜单回调: `function(event, cell, i, j)`
-parsePaste | func | `function (string) {}` If set, the function will be called with the raw clipboard data. It should return an array of arrays of strings. This is useful for when the clipboard may have data with irregular field or line delimiters. If not set, rows will be split with line breaks and cells with tabs.
+parsePaste | func | `function (string) {}` 粘贴时对内容字符串处理的回调函数
 
 ## Cell Options
 
